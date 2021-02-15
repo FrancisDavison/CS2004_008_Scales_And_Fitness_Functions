@@ -50,7 +50,14 @@ public class ScalesSolution
 		int n = scasol.length();
 		for(int i=0;i<n;i++)
 		{
-			
+			if(scasol.charAt(i)==0)
+			{
+				lhs+=weights.get(i);
+			}
+			if(scasol.charAt(i)==1)
+			{
+				rhs+=weights.get(i);
+			}
 		}
 		//Code goes here
 		//Check each element of scasol for a 0 (lhs) and 1 (rhs) add the weight wi

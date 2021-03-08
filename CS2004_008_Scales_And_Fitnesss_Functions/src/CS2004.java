@@ -20,6 +20,7 @@ public class CS2004
 		int x = rand.nextInt(d) + a;
 		return(x);
 	}
+	
 	//Create a uniformly distributed random double between a and b inclusive
 	static public double UR(double a,double b)
 	{
@@ -30,6 +31,7 @@ public class CS2004
 		}
 		return((b-a)*rand.nextDouble()+a);
 	}
+	
 	//This method reads in a text file and parses all of the numbers in it
 	//This code is not very good and can be improved!
 	//But it should work!!!

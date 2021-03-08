@@ -24,6 +24,7 @@ public class ScalesSolution
 			scasol = RandomBinaryString(n);
 		}
 	}
+	
 	private static String RandomBinaryString(int n)
 	{
 		String s = new String();
@@ -36,6 +37,7 @@ public class ScalesSolution
 		
 		return(s);
 	}
+	
 	public ScalesSolution(int n) 
 	{
 		scasol = RandomBinaryString(n);	
@@ -65,11 +67,13 @@ public class ScalesSolution
 		
 		return(Math.abs(lhs-rhs));
 	}
+	
 	//Display the string without a new line
 	public void print()
 	{
 		System.out.print(scasol);
 	}
+	
 	//Display the string with a new line
 	public void println()
 	{

@@ -34,7 +34,6 @@ public class ScalesSolution
 			int x = CS2004.UI(0,1);
 			s += x;
 		}
-		
 		return(s);
 	}
 	
@@ -61,10 +60,6 @@ public class ScalesSolution
 				rhs+=weights.get(i);
 			}
 		}
-		//Code goes here
-		//Check each element of scasol for a 0 (lhs) and 1 (rhs) add the weight wi
-		//to variables lhs and rhs as appropriate
-		
 		return(Math.abs(lhs-rhs));
 	}
 	

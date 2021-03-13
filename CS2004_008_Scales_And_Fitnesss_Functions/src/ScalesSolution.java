@@ -27,7 +27,7 @@ public class ScalesSolution
 	
 	private static String RandomBinaryString(int n)
 	{
-		String s = new String();
+		String s = "";
 		//Create a random binary string of just ones and zeros of length n
 		for(int i=0;i<n;i++)
 		{
@@ -51,7 +51,7 @@ public class ScalesSolution
 		int n = scasol.length();
 		for(int i=0;i<n;i++)
 		{
-			if(scasol.charAt(i)==0)
+			if(scasol.charAt(i)=='0')
 			{
 				lhs+=weights.get(i);
 			}

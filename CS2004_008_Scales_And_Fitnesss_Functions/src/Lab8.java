@@ -30,6 +30,18 @@ public class Lab8
 		System.out.println(s.ScalesFitness(weights));
 		*/
 		
+		ArrayList<Double> NumberFile = CS2004.ReadNumberFile("src\\1000 Primes.txt");
+		double Average=0;
+		double xs;
+		double NewAverage;
 		
+		for(int i=0;i<1000;i++)
+		{
+			ScalesSolution Scale1000 = new ScalesSolution(100);
+			xs=Scale1000.ScalesFitness(NumberFile);
+			Average+=xs;
+		}
+		NewAverage=Average/100;
+		System.out.println(NewAverage);
 	}
 }

@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 //Some useful code that we will probably reuse in later laboratories...
-public class CS2004 
+public class CS2004
 {
 	//Shared random object
 	static private Random rand;
